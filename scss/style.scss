@@ -1,0 +1,235 @@
+/* Variables*/
+
+$texto_size: 16px;
+$texto_color: green;
+$texto_family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+@import "footer";
+@import "header";
+
+
+body{
+    background-color: burlywood;
+    
+}
+
+p{
+    color: $texto_color;
+    font-family: $texto_family;
+}
+
+.fondo{
+
+    background-color: #a17e50;
+}
+
+
+
+.novedades {
+
+    background-color: darkcyan;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    &__titulo{
+        color:darkorange;
+        letter-spacing: 4px;
+    }
+    &__parrafo{
+        color:firebrick;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+}
+
+
+
+.sliderlibros{
+    
+    background-color: goldenrod;
+
+
+
+    &__portadas{
+
+        border: 5px solid chocolate;
+        margin: 20px;
+
+    }
+}
+
+
+.tabla{
+
+    border: 10px solid lime;
+    text-align: center;
+    margin-right: 33%;
+    margin-left: 33%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    &__titulos{
+
+    color:indianred;
+    font-size: 25px;
+    background-color:lightgrey;
+    border: 5px solid orange;
+
+    }
+}
+
+
+.imagenes{
+
+    background-color: goldenrod; 
+    display: flex;
+    justify-content: space-evenly;  
+     
+    
+
+
+    &__cuadros{
+
+        width:250px;
+        height: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 15px chocolate solid;
+
+        
+        
+    }
+}
+
+.nombres{
+
+    background-color: cornflowerblue;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    text-align: center;
+
+    &__texto{
+
+        color:blueviolet;
+        width: 250px;
+        text-align: center;
+
+
+    }
+}
+
+.escritores{
+
+
+    background-color: burlywood;
+
+    &__titulo{
+
+        color:coral;
+        letter-spacing: 10px;
+
+    }
+
+    &__texto{
+
+        color:darkorchid;
+    }
+}
+
+
+.ofertas{
+
+    background-color: darkseagreen;
+
+    &__titulo{
+
+        color:deeppink;
+        letter-spacing: 15px;
+
+
+    }
+
+    &__texto{
+        color:firebrick;
+    }
+}
+
+
+
+.sucursales{
+
+
+    background-color:cadetblue; 
+
+    &__titulo{
+
+        color:crimson;
+        letter-spacing: 15px;
+
+    }
+
+    &__texto{
+
+        color:darkblue;
+        font-family: cursive;
+    }
+}
+
+
+
+@for $i from 1 to 15 {
+
+    .medidas-p-#{$i} {
+
+        font-size: 10 + 5 * $i;}
+}
+
+@each $color in red, green, #0BDA51 {
+
+    .fondo-#{$color} {
+
+        background-color: #{$color};
+    }
+}
+
+
+$bordes: (
+
+        solido: solid 5px black,
+        cortado: dashed 5px black,
+        punteado: dotted 5px black,
+);
+
+@each $tipo, $border in $bordes {
+
+    .border-#{$tipo} {
+
+        border: $border;
+    }
+
+}
+
+
+.card{
+    display: grid;
+    align-items: center;
+    background-color: cornsilk;
+    border-radius: 35px;
+    transition: all 1s;
+}
+
+.card :hover{
+
+    transform: translate(0px, 5px);
+
+}
+
+
+
+.slider{
+
+    width: 300px;
+    height: 500px;
+    
+
+}

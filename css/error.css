@@ -1,0 +1,35 @@
+
+.error{
+
+    text-align: center;
+    margin: auto;
+}
+
+.error1{
+
+    font-size: 70px;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+
+
+.error2{
+    font-size: 35px;
+}
+
+
+.volver{
+
+    font-size: 35px;
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+    margin:auto;
+
+}
