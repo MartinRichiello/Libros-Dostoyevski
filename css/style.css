@@ -18,7 +18,7 @@ p {
   background-color: #a17e50; }
 
 .novedades {
-  background-color: darkcyan;
+  background-color: #a17e50;
   margin-top: 30px;
   margin-bottom: 30px; }
   .novedades__titulo {
@@ -87,7 +87,7 @@ p {
     color: firebrick; }
 
 .sucursales {
-  background-color: cadetblue; }
+  background-color: #a17e50; }
   .sucursales__titulo {
     color: crimson;
     letter-spacing: 15px; }
