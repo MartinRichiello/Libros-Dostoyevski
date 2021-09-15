@@ -7,6 +7,11 @@ footer {
 .fondo {
   background-color: #c79f6b; }
 
+.img-logo {
+  width: 60px;
+  height: 45px;
+  margin-right: 10px; }
+
 body {
   background-color: burlywood; }
 
@@ -87,7 +92,7 @@ p {
     color: firebrick; }
 
 .sucursales {
-  background-color: #a17e50; }
+  background-color: cadetblue; }
   .sucursales__titulo {
     color: crimson;
     letter-spacing: 15px; }
