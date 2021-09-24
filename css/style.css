@@ -15,6 +15,9 @@ footer {
 body {
   background-color: burlywood; }
 
+.navbar-brand {
+  font-family: 'Bungee', cursive; }
+
 p {
   color: green;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
