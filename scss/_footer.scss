@@ -4,6 +4,12 @@ footer{
     background-color: #c79f6b;
     padding: 0%;
     border-top: 3px solid black;
+    text-align: center;
+
+    p{
+        color:black;
+        margin-bottom: 0px;
+    }
 }
 
 .logo-footer{
@@ -24,3 +30,39 @@ footer{
 
 }
 
+
+.redes{
+    
+    display:flex;
+   
+    margin: auto;
+    width: 30%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+
+    
+    
+    img{
+        width:30px;
+        height:30px;
+    }
+
+    p{
+        color:black;
+        height: 30px;
+        align-items: center;
+    }
+
+    .instagram{
+        
+      display:flex;
+    }
+
+    .telefono{
+
+        
+      display:flex;  
+    }
+
+}
