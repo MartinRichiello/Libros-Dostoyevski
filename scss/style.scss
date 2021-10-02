@@ -95,7 +95,7 @@ p{
 
 .imagenes{
 
-    background-color: goldenrod; 
+    background-color: white; 
     display: flex;
     justify-content: space-evenly;  
      
@@ -134,21 +134,31 @@ p{
     }
 }
 
+.ventana{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    background-color: #a17e50 ;
+    margin-bottom: 50px;
+}
+
 .escritores{
 
 
-    background-color: burlywood;
-
     &__titulo{
 
-        color:coral;
-        letter-spacing: 10px;
+        color:white;
+        letter-spacing: 4px;
+        text-align: center;
+        font-size: 70px;
 
     }
 
     &__texto{
 
-        color:darkorchid;
+        color:black;
+        padding: 10px;
     }
 }
 
@@ -288,7 +298,6 @@ $bordes: (
 
 .boton{ 
     text-align: center;
-    border:black 1px solid;
     width: 35%;
     margin: auto;
     margin-top: 45px;
@@ -298,8 +307,11 @@ $bordes: (
 
     input{
         height: 35px;
+        transition: all 1s;
+        border:black 1px solid;
+    }
 
-
-
+    input:hover{
+        background-color: #32CD32;
     }
 }

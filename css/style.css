@@ -105,7 +105,7 @@ p {
     border: 5px solid orange; }
 
 .imagenes {
-  background-color: goldenrod;
+  background-color: white;
   display: flex;
   justify-content: space-evenly; }
   .imagenes__cuadros {
@@ -127,13 +127,23 @@ p {
     width: 250px;
     text-align: center; }
 
-.escritores {
-  background-color: burlywood; }
-  .escritores__titulo {
-    color: coral;
-    letter-spacing: 10px; }
-  .escritores__texto {
-    color: darkorchid; }
+.ventana {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+  background-color: #a17e50;
+  margin-bottom: 50px; }
+
+.escritores__titulo {
+  color: white;
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 70px; }
+
+.escritores__texto {
+  color: black;
+  padding: 10px; }
 
 .ofertas {
   background-color: #a17e50;
@@ -254,7 +264,6 @@ p {
 
 .boton {
   text-align: center;
-  border: black 1px solid;
   width: 35%;
   margin: auto;
   margin-top: 45px;
@@ -262,4 +271,8 @@ p {
   display: flex;
   justify-content: space-around; }
   .boton input {
-    height: 35px; }
+    height: 35px;
+    transition: all 1s;
+    border: black 1px solid; }
+  .boton input:hover {
+    background-color: #32CD32; }
