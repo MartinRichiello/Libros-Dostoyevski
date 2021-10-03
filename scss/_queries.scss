@@ -1,0 +1,36 @@
+//mobile
+@media(min-width: 576px){
+
+
+
+
+}
+
+
+//Tablet
+
+@media(min-width: 768px){
+    
+    .imagenes{
+
+        img{
+            width: 200px;
+            height: 300px;
+        }
+    }
+}
+
+//Desktop
+
+@media(min-width: 992px ) {
+
+
+
+    .imagenes{
+
+        img{
+            width: 250px;
+            height: 375px;
+        }
+    }
+}

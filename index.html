@@ -23,215 +23,218 @@
   </head>
 <body>
 
+    <div class="container">
+            <header>
+              <div class="container-fluid p-0 mb-5 ">
+                <div class="row">
+                  <div class="col-lg-12 col-xs-12 fondo " >
 
-    <header>
-      <div class="container-fluid p-0 mb-5 ">
-        <div class="row">
-          <div class="col-lg-12 col-xs-12 fondo " >
+                      <nav class="navbar navbar-expand-lg navbar-light fondo ">
+                        <a class="navbar-brand" href="#"><img src="./assets/images/pngegg.png"  class="img-logo" alt="logo">Libros Dostoyevski</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="./index.html" >Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active dropdown">
+                              <a class="nav-link dropdown-toggle" href="./pages/libros.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Nuestros libros
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./pages/escritores.html">Fiodr Dostoyevski</a>
+                                <a class="dropdown-item" href="./pages/escritores.html">Charles Dickens</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="./pages/escritores.html">Otros Autores</a>
+                              </div>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="./pages/nosotros.html">¿Quienes somos?</a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="./pages/sucursales.html">Sucursales<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="./pages/notfound/error.html">Error<span class="sr-only">(current)</span></a>
+                            </li>
+                          </ul>
+                          <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+                          </form>
+                        </div>
+                      </nav>
 
-              <nav class="navbar navbar-expand-lg navbar-light fondo ">
-                <a class="navbar-brand" href="#"><img src="./assets/images/pngegg.png"  class="img-logo" alt="logo">Libros Dostoyevski</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="./index.html" >Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active dropdown">
-                      <a class="nav-link dropdown-toggle" href="pages/libros.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Nuestros libros
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./pages/escritores.html">Fiodr Dostoyevski</a>
-                        <a class="dropdown-item" href="./pages/escritores.html">Charles Dickens</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="./pages/escritores.html">Otros Autores</a>
+                    </div>
+                  </div>
+                </div>
+            </header>
+
+
+            <!--<div>
+                <h1 class="slider">Imagen del menu Slider</h1>
+            </div>-->
+            <div class="container-fluid  slider mb-5" >
+                <div class="row ">
+                    <div class="col-lg-12 col-xs-12 " >
+                        
+
+                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./assets/images/bestiario.jpg" class="d-block w-100" alt="Bestiario">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/images/grandesEsperanzas.jpg" class="d-block w-100" alt="Esperanzas">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/images/huckFinn.jpg" class="d-block w-100" alt="Esperanzas">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/images/robinson.jpg" class="d-block w-100" alt="Robinson">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
                       </div>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="./pages/nosotros.html">¿Quienes somos?</a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="./pages/sucursales.html">Sucursales<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="./pages/notfound/error.html">Error<span class="sr-only">(current)</span></a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
-                  </form>
-                </div>
-              </nav>
 
+
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-    </header>
 
 
-    <!--<div>
-        <h1 class="slider">Imagen del menu Slider</h1>
-    </div>-->
-    <div class="container-fluid  slider mb-5" >
-        <div class="row ">
-            <div class="col-lg-12 col-xs-12 " >
-                
 
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./assets/images/bestiario.jpg" class="d-block w-100" alt="Bestiario">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/images/grandesEsperanzas.jpg" class="d-block w-100" alt="Esperanzas">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/images/huckFinn.jpg" class="d-block w-100" alt="Esperanzas">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./assets/images/robinson.jpg" class="d-block w-100" alt="Robinson">
-                  </div>
+
+
+
+            <div class="container-fluid m-0 text-center">
+              <div class="row">
+                <div class="col-lg-12 col-xs-12 ">
+
+                <h1 style="color:black;  font-size: 20px">Proximamente obras de Sheakspeare <span class="badge badge-secondary">Nuevo</span></h1>
+                  <h1 style="color:black; font-size: 20px;" >Añádimos traducciones de Cortázar <span class="badge badge-secondary">Nuevo</span></h1>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+              </div>
+            </div>
+            <section class="novedades">
+                <h1 class="novedades__titulo">Novedades</h1>
+                <p class="novedades__parrafo" > Hemos agregado a las ediciones de este año uno de los clasicos mas pedidos por nuestros clientes: Robinson Crusoe. El clasico de Defoe con una traduccion de Julio Cortazár llegara a nuestras estanterias el proximo mes.<a src="#">Mas Info.</a></p>
+                
+            </section>
+
+            
+            <div class="container-fluid" >
+              <div class="row">
+                <div class="col-lg-12 col-xs-12 d-flex justify-content-between " style="margin-bottom: 100px;">
+
+
+                  <div class="caja-cartas">
+                    <!--Carta 1-->
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Julio Cortazár</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">1914-1984</h6>
+                            <p class="card-text">Cuentista, traductor y profesor de gran trayectoria en la literatura argentina.</p>
+                            <a href="./pages/escritores.html" class="card-link">Mas info</a>
+                          </div>
+                        </div>
+
+                        <!--Carta 2-->
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Mark Twain</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">1835-1910</h6>
+                            <p class="card-text">Reportero, humorista y novelista. Padre y gran influencia de la literatura norteamericana.</p>
+                            <a href="./pages/escritores.html" class="card-link">Mas info</a>
+                          </div>
+                        </div>
+
+                        <!--Carta 3-->
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Charles Dickens</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">1812-1870</h6>
+                            <p class="card-text">Principal novelista y de la era Victoriana y uno de los mejores escritores occidentales del siglo XIX.</p>
+                            <a href="./pages/escritores.html" class="card-link">Mas info</a>
+                          </div>
+                        </div>
+
+
+                        <!--Carta 4-->
+                        <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                            <h5 class="card-title">Fiodr Dsotoyevski</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">1821-1881</h6>
+                            <p class="card-text">Novelista y cronista de la Rusia zarista. Su obra influyo el movimiento existencialista y el panorama del este Europeo.</p>
+                            <a href="./pages/escritores.html" class="card-link">Mas info.</a>
+                        </div>
+
+                  </div>
+
+
+                  
+                </div>
+              </div>
               </div>
 
-
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-    <div class="container-fluid m-0 text-center">
-      <div class="row">
-        <div class="col-lg-12 col-xs-12 ">
-
-         <h1 style="color:black;  font-size: 20px">Proximamente obras de Sheakspeare <span class="badge badge-secondary">Nuevo</span></h1>
-          <h1 style="color:black; font-size: 20px;" >Añádimos traducciones de Cortázar <span class="badge badge-secondary">Nuevo</span></h1>
-        </div>
-      </div>
-    </div>
-    <section class="novedades">
-        <h1 class="novedades__titulo">Novedades</h1>
-        <p class="novedades__parrafo" > Hemos agregado a las ediciones de este año uno de los clasicos mas pedidos por nuestros clientes: Robinson Crusoe. El clasico de Defoe con una traduccion de Julio Cortazár llegara a nuestras estanterias el proximo mes.<a src="#">Mas Info.</a></p>
-        
-    </section>
-
-    
-    <div class="container-fluid" >
-      <div class="row">
-        <div class="col-lg-12 col-xs-12 d-flex justify-content-between " style="margin-bottom: 100px;">
-
-          <!--Carta 1-->
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Julio Cortazár</h5>
-              <h6 class="card-subtitle mb-2 text-muted">1914-1984</h6>
-              <p class="card-text">Cuentista, traductor y profesor de gran trayectoria en la literatura argentina.</p>
-              <a href="./pages/escritores.html" class="card-link">Mas info</a>
-            </div>
-          </div>
-
-          <!--Carta 2-->
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Mark Twain</h5>
-              <h6 class="card-subtitle mb-2 text-muted">1835-1910</h6>
-              <p class="card-text">Reportero, humorista y novelista. Padre y gran influencia de la literatura norteamericana.</p>
-              <a href="./pages/escritores.html" class="card-link">Mas info</a>
-            </div>
-          </div>
-
-          <!--Carta 3-->
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Charles Dickens</h5>
-              <h6 class="card-subtitle mb-2 text-muted">1812-1870</h6>
-              <p class="card-text">Principal novelista y de la era Victoriana y uno de los mejores escritores occidentales del siglo XIX..</p>
-              <a href="./pages/escritores.html" class="card-link">Mas info</a>
-            </div>
-          </div>
-
-
-          <!--Carta 4-->
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Fiodr Dsotoyevski</h5>
-              <h6 class="card-subtitle mb-2 text-muted">1821-1881</h6>
-              <p class="card-text">Novelista y cronista de la Rusia zarista. Su obra influyo el movimiento existencialista y el panorama del este Europeo.</p>
-              <a href="./pages/escritores.html" class="card-link">Mas info.</a>
-              
-            </div>
-          </div>
-
-
-          
-        </div>
-      </div>
-  </div>
-
-
-
-
-    <section class ="ofertas">
-        <h2 class="ofertas__titulo">Ofertas</h2>
-        <p class="ofertas__texto"> Durante todo Agosto festejamos el Aniversario  de Libros Dostoyevski con descuentos de hasta el 45% en todos nuestros productos en todas nuestras sucursales.</p>
-    </section>
-
-
-
-    
-    
-    
-    <footer class= "logos">
-        <div class="logo-footer">
-          <img src="assets/images/pngegg.png" class="img-logo" alt="logo">
-          <h1>Libros Dostoyevski</h1>
         </div>
 
-        <div class="redes">
 
-          <div class="instagram">
-            <img src="assets/images/instagram.png">
-            <p>Libros_Dostoyevski</p>
-          </div>
 
-          <div class="telefono">
-          <img src="assets/images/telefono.png">
-          <p>5693-4351</p>
-          </div>
 
-        </div>
+            <section class ="ofertas">
+                <h2 class="ofertas__titulo">Ofertas</h2>
+                <p class="ofertas__texto"> Durante todo Agosto festejamos el Aniversario  de Libros Dostoyevski con descuentos de hasta el 45% en todos nuestros productos en todas nuestras sucursales.</p>
+            </section>
 
-        <p>©Libros Dostoyevski 2021.</p>
-        <p>Todos los derechos reservados</p>
-        
-    </footer>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
-    
+            
+            
+    </div>        
+            <footer class= "logos">
+                <div class="logo-footer">
+                  <img src="assets/images/pngegg.png" class="img-logo" alt="logo">
+                  <h1>Libros Dostoyevski</h1>
+                </div>
+
+                <div class="redes">
+
+                  <div class="instagram">
+                    <img src="assets/images/instagram.png">
+                    <p>Libros_Dostoyevski</p>
+                  </div>
+
+                  <div class="telefono">
+                  <img src="assets/images/telefono.png">
+                  <p>5693-4351</p>
+                  </div>
+
+                </div>
+
+                <p>©Libros Dostoyevski 2021.</p>
+                <p>Todos los derechos reservados</p>
+                
+            </footer>
+
+            <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+            
 </body>
 </html>

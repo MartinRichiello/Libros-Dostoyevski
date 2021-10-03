@@ -82,7 +82,7 @@ p{
 
     &__portadas{
 
-        border: 5px solid chocolate;
+        border: 5px solid #61452a;
         margin: 20px;
 
     }
@@ -91,7 +91,7 @@ p{
 
 .tabla{
 
-    border: 10px solid lime;
+    border: 10px solid black;
     text-align: center;
     margin-right: 33%;
     margin-left: 33%;
@@ -100,11 +100,17 @@ p{
 
     &__titulos{
 
-    color:indianred;
+    color:black;
     font-size: 25px;
-    background-color:lightgrey;
-    border: 5px solid orange;
+    background-color:white;
+    border: 5px solid black;
+    margin: 5px 5px 5px 5px;
 
+    }
+
+    td{
+        background-color: white;
+        border: 1px solid black;
     }
 }
 
@@ -161,7 +167,7 @@ p{
 }
 
 .ventana{
-    border: 1px solid black;
+    box-shadow: 0px 0px 10px 1px black;
     width: 90%;
     margin: auto;
     padding-top: 30px;
@@ -299,12 +305,27 @@ $bordes: (
 }
 
 
+.caja-cartas{
+
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+
+
+}
+
 .card{
-    display: grid;
+    display: flex;
     align-items: center;
     background-color: cornsilk;
     border-radius: 35px;
     transition: all 1s;
+    margin: 10px 10px 10px 10px;
+    
+    
 }
 
 .card :hover{
@@ -372,4 +393,29 @@ $bordes: (
     input:hover{
         background-color: #32CD32;
     }
+}
+
+
+.card{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    .card-title{
+        color: black;
+        font-size: 170%;
+    }
+
+    .card-subtitle{
+        color: grey;
+        font-size: 100;
+    }
+
+    .card-text{
+        color: black;
+    }
+    
+
+
+
 }

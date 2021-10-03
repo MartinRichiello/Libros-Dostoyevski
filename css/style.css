@@ -3,7 +3,8 @@ footer {
   background-color: #a17e50;
   padding: 0%;
   text-align: center;
-  box-shadow: 0px 0px 10px 1px black; }
+  box-shadow: 0px 0px 10px 1px black;
+  width: 100%; }
   footer p {
     color: black;
     margin-bottom: 0px;
@@ -51,10 +52,21 @@ footer {
 
 header {
   font-family: 'Rubik', sans-serif;
-  box-shadow: 0px 0px 10px 1px black; }
+  box-shadow: 0px 0px 10px 1px black;
+  width: 100%; }
 
 .dropdown:hover > .dropdown-menu {
   display: block; }
+
+@media (min-width: 768px) {
+  .imagenes img {
+    width: 200px;
+    height: 300px; } }
+
+@media (min-width: 992px) {
+  .imagenes img {
+    width: 250px;
+    height: 375px; } }
 
 body {
   background-color: burlywood; }
@@ -97,21 +109,25 @@ p {
     margin: 40px 30px 20px 30px;
     box-shadow: 0px 0px 10px 1px black; }
   .sliderlibros__portadas {
-    border: 5px solid chocolate;
+    border: 5px solid #61452a;
     margin: 20px; }
 
 .tabla {
-  border: 10px solid lime;
+  border: 10px solid black;
   text-align: center;
   margin-right: 33%;
   margin-left: 33%;
   margin-top: 30px;
   margin-bottom: 30px; }
   .tabla__titulos {
-    color: indianred;
+    color: black;
     font-size: 25px;
-    background-color: lightgrey;
-    border: 5px solid orange; }
+    background-color: white;
+    border: 5px solid black;
+    margin: 5px 5px 5px 5px; }
+  .tabla td {
+    background-color: white;
+    border: 1px solid black; }
 
 .imagenes {
   display: flex;
@@ -144,7 +160,7 @@ p {
     text-align: center; }
 
 .ventana {
-  border: 1px solid black;
+  box-shadow: 0px 0px 10px 1px black;
   width: 90%;
   margin: auto;
   padding-top: 30px;
@@ -265,12 +281,21 @@ p {
 .border-punteado {
   border: dotted 5px black; }
 
+.caja-cartas {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto; }
+
 .card {
-  display: grid;
+  display: flex;
   align-items: center;
   background-color: cornsilk;
   border-radius: 35px;
-  transition: all 1s; }
+  transition: all 1s;
+  margin: 10px 10px 10px 10px; }
 
 .card :hover {
   transform: translate(0px, 5px); }
@@ -314,3 +339,15 @@ p {
     border: black 1px solid; }
   .boton input:hover {
     background-color: #32CD32; }
+
+.card {
+  display: flex;
+  flex-wrap: wrap; }
+  .card .card-title {
+    color: black;
+    font-size: 170%; }
+  .card .card-subtitle {
+    color: grey;
+    font-size: 100; }
+  .card .card-text {
+    color: black; }
