@@ -273,7 +273,6 @@ p {
   border: dotted 5px black; }
 
 .caja-cartas {
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
